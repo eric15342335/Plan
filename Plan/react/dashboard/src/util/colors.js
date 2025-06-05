@@ -288,7 +288,7 @@ export const createNightModeCss = () => {
         `.dropdown-item,.dropdown-header{color: var(--color-night-text-dark-bg) !important;}` +
         `.dropdown-item:hover{background-color: var(--color-night-blue) !important;}` +
         `.dropdown-menu{border-color:var(--color-night-blue);color: var(--color-night-blue) !important;}` +
-        `.col-theme{--color-theme: var(--color-night-text-dark-bg)}` +
+        `.col-theme{--color-theme: var(--color-night-text-dark-bg) !important;}` +
         `:root {--bs-heading-color:var(--color-night-text-dark-bg); --bs-card-color:var(--color-night-text-dark-bg); --bs-body-color:var(--color-night-text-dark-bg); --bs-body-bg:var(--color-night-dark-grey-blue); --bs-btn-active-border-color:var(--color-night-blue);}` +
         createNightModeColorCss()
 }
